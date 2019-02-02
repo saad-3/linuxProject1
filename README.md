@@ -27,6 +27,26 @@ all of them will be in the link attached
  * you will asked for a password , i will leave it as comment .
 
 
+## Configurations
+  1. change the ssh default port from 22 to 2200
+  2. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
+  3. create "grader" user
+  4. Give grader the permission to sudo.
+  5. Create an SSH key pair for grader using the ssh-keygen tool.
+  6. Configure the local timezone to UTC.
+  7.  Create a new database user named catalog that has limited permissions to your catalog application database.
+
+##  Software Installed
+  1. Apache
+  2. mod_wsgi
+  3. git
+  4. flask
+
+
 
 ## Start Up
 the server is already running , just visit the link "http://18.184.230.110.xip.io"
+
+
+## third-party resources
+  Amazon Lightsail.
